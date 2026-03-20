@@ -65,9 +65,21 @@ footer{
    margin-top:500px;
 }
 
-.quiz-form{
-    text-align:center;
-    margin-top:150px;
+.quiz-form {
+    margin: 150px auto;
+    width: 350px;  
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+}
+
+.quiz-form input,
+.quiz-form select,
+.quiz-form button {
+    width: 300px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 25px;
+    padding-left: 10px;         
+    font-size: 16px;
 }
 
 
